@@ -1,10 +1,11 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
 
 author 'Vyast'
-description 'Simple, lightweight resource that will stop players from using modified game files to gain an unfair combat advantage.'
-version '1.0.0'
+description 'A simple that will stop players from using "modified game files" to gain an unfair combat advantage.'
+version '1.0.1'
 
 shared_script 'config.lua'
 client_script 'client/client.lua'
-server_script 'server/server.lua'
+server_scripts {'server/*.lua'}
