@@ -1,4 +1,4 @@
-local invoke = Citizen.InvokeNative
+local invoke, cfg = Citizen.InvokeNative, type(config) == 'table' and config or {}
 
 local function flag(ped, bool)
 	if config?.kick then
@@ -13,7 +13,7 @@ CreateThread(function()
     while true do
         local ped = PlayerPedId()
 
-        for k, v in pairs(config?.weapons or {}) do
+        for k, v in pairs(cfg.weapons) do
             print(invoke('0x8DECB02F88F428BC', ped, false), 'HasPedGotWeapon')
             if invoke('0x8DECB02F88F428BC', ped, false) then
             --if HasPedGotWeapon(ped, k, false) then --(HasPedGotWeapon) Checks if the player has the specified weapon first. You can remove this check if you want to.
