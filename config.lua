@@ -1,7 +1,7 @@
 config = {}
 
 config.weapons = { --use `` instead of "" or ''! 
-    [`WEAPON_APPISTOL`] = {clipSize = 18, damage = 28.0}, --These are the default values, if you use a custom weapons.meta file, change these accordingly!
+    [`WEAPON_APPISTOL`] = {clipSize = 18, damage = 28.0}, --These are the default values, if you stream a custom weapons.meta file, change these accordingly!
     [`WEAPON_COMBATPISTOL`] = {clipSize = 12, damage = 27.0}
 }
 

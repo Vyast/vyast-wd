@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'Vyast'
-description 'A simple resource that checks for client self-modified meta/ai files to gain an unfair combat advantage.'
+description 'A simple resource that checks for modified client meta/ai files that grant an unfair combat advantage.'
 version '1.0.1'
 
 shared_script 'config.lua'
