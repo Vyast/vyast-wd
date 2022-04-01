@@ -1,6 +1,6 @@
 # Weapon Detection
 # https://github.com/Vyast/vyast-wd
-A simple, lightweight FiveM resource that will stop players from using modified game files to gain an unfair combat advantage.
+A simple FiveM resource that will stop players from using "modified game files" to gain an unfair combat advantage.
 
 Specifically, this will prevent players from modifying the native ammo clip size & damage values of their weapons.
 
