@@ -7,5 +7,5 @@ description 'A simple that will stop players from using "modified game files" to
 version '1.0.1'
 
 shared_script 'config.lua'
-client_script 'client/client.lua'
+client_script 'client/main.lua'
 server_scripts {'server/*.lua'}
